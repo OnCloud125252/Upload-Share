@@ -1,6 +1,7 @@
 import { SignIn } from "@clerk/nextjs";
 
 import "@/styles/clerk-sign-in.css";
+import "@/styles/clerk-theme.css";
 
 
 export default function SignInPage() {
