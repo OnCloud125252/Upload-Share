@@ -16,7 +16,7 @@ export default function FilePreview({
   setIsImage: Dispatch<SetStateAction<boolean>>;
 }) {
   return (
-    <Card className="w-[40rem] h-[30rem] relative select-none">
+    <Card className="w-[40rem] h-[30rem] relative select-none border-border">
       <CardHeader className="h-[98%]">
         <div className="relative h-full w-full border-2 border-dashed border-muted-foreground rounded-xl overflow-hidden flex items-center justify-center">
           <FileUpload {...{ files, setFiles, isImage, setIsImage }} />
